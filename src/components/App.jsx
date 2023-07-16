@@ -6,7 +6,7 @@ import { Filter } from './Filter/Filter';
 
 
 
-export class App extends React.Component {
+export class App extends Component {
   state = {
     contacts: [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
